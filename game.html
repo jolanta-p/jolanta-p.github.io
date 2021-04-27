@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon">
+    <title>O'Rona-19</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <meta name="description" content="ORona PWA - Progressive Web Application">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Jola">
+
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/icons/icon-152x152.png">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#0f0b20">
+    <meta name="apple-mobile-web-app-title" content="ORona PWA">
+
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-status-bar-style" content="#0f0b20">
+    <meta name="mobile-web-app-title" content="ORona PWA">
+
+    <link rel="manifest" href="./manifest.json">
+    <meta name="msapplication-TileColor" content="#0f0b20">
+    <meta name="msapplication-TileImage" content="./img/icons/icon-144x144.png">
+
+    <meta name="theme-color" content="#0f0b20">
+</head>
+
+<body>
+    <div class="extraBtns">
+        <button class="btns" onclick="maskButton()">Mask</button>
+        <button class="btns" onclick="sanitizerButton()">Sanitizer</button>
+        <button class="btns" onclick="vaccineButton()">Vaccine</button>
+    </div>
+    <canvas id="gameCanvas">
+        Your browser does not support the HTML5 canvas tag.
+    </canvas>
+
+    <script src="./js/script.js"></script>
+    <script src="./register.js"></script>
+</body>
+
+</html>

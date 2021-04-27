@@ -1,0 +1,193 @@
+                * {
+                    margin: 0;
+                    padding: 0;
+                    font-family: 'Midnight Workers', sans-serif;
+                    letter-spacing: 1px;
+                    text-align: center;
+                }
+                
+                body {
+                    background-color: #2d2c2c;
+                }
+                
+                .container {
+                    width: 900px;
+                    height: 720px;
+                    background-image: url(../img/background_1.png);
+                    background-color: #173753;
+                    color: #ffffff;
+                    padding: 100px;
+                    top: 50%;
+                    left: 50%;
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    box-sizing: border-box;
+                    border-radius: 15px;
+                }
+                
+                .container img {
+                    margin-top: 100px;
+                    width: 100%;
+                    align-items: center;
+                }
+                
+                .container h3 {
+                    font-size: 2.25rem;
+                }
+                
+                input {
+                    height: 35px;
+                    width: 500px;
+                    border-radius: 10px;
+                    border: 3px solid #1358a0;
+                    font-size: 1.5rem;
+                    color: #0066A2;
+                    padding: 5px;
+                    margin-top: 25px;
+                }
+                
+                .btn {
+                    margin-top: 35px;
+                    background: #1358a0;
+                    color: white;
+                    border-radius: 15px;
+                    height: 50px;
+                    width: 250px;
+                    text-transform: uppercase;
+                    font-size: 2rem;
+                    box-shadow: 0px 8px #363636;
+                    border-color: #1358a0;
+                    transform: translateY(7px);
+                    cursor: pointer;
+                }
+                
+                .btn:hover {
+                    background-color: #0080ff;
+                    border-color: #0080ff;
+                }
+                /*-------------------- GAMER TAG PAGE --------------------*/
+                
+                .container2 {
+                    width: 900px;
+                    height: 720px;
+                    background-image: url(../img/background_2.png);
+                    background-color: #173753;
+                    color: #ffffff;
+                    padding: 100px;
+                    top: 50%;
+                    left: 50%;
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    box-sizing: border-box;
+                    border-radius: 15px;
+                }
+                
+                .container2 h1 {
+                    font-size: 4rem;
+                    margin-top: 20px;
+                }
+                
+                .container2 h3 {
+                    font-size: 2.5rem;
+                    text-transform: uppercase;
+                    margin-top: 20px;
+                }
+                
+                .container2 img {
+                    margin-top: 0px;
+                    width: 100%;
+                    align-items: center;
+                }
+                
+                .container2 button {
+                    background: #fff;
+                    border-radius: 15px;
+                    height: 120px;
+                    width: 120px;
+                    box-shadow: 4px 4px #363636;
+                    border-color: #1358a0;
+                    cursor: pointer;
+                }
+                
+                .container2 .buttons {
+                    text-align: center;
+                    display: block;
+                    margin: auto;
+                }
+                
+                #virusAvatar:hover {
+                    background-color: #e7e7e7;
+                }
+                
+                #virusAvatar {
+                    margin-left: 25px;
+                }
+                
+                #humanAvatar:hover {
+                    background-color: #e7e7e7;
+                }
+                
+                #homeBtn {
+                    height: 50px;
+                    width: 50px;
+                    background: #1358a0;
+                    border-radius: 5px;
+                    box-shadow: 2px 2px #363636;
+                    border-color: #1358a0;
+                    transform: translateY(7px);
+                    float: right;
+                    margin-top: 50px;
+                    cursor: pointer;
+                }
+                
+                #homeBtn:hover {
+                    background-color: #0080ff;
+                    border-color: #0080ff;
+                }
+                
+                .avatarname1,
+                .avatarname2 {
+                    font-size: 1.5rem;
+                    text-align: center;
+                    display: inline;
+                    margin: auto;
+                }
+                
+                .avatarname2 {
+                    margin-left: 80px;
+                }
+                /*-------------------- GAME PAGE --------------------*/
+                
+                #gameCanvas {
+                    width: 900px;
+                    height: 720px;
+                    padding: 100px;
+                    top: 50%;
+                    left: 50%;
+                    position: absolute;
+                    transform: translate(-50%, -50%);
+                    box-sizing: border-box;
+                    border-radius: 15px;
+                }
+                
+                .extraBtns {
+                    margin-left: 620px;
+                    margin-top: 620px;
+                    z-index: 1;
+                    position: absolute;
+                }
+                
+                .btns {
+                    background: #fff;
+                    color: #1358a0;
+                    border-radius: 10px;
+                    height: 60px;
+                    width: 60px;
+                    font-size: 1rem;
+                    box-shadow: 0px 4px #363636;
+                    border-color: #1358a0;
+                    transform: translateY(4px);
+                    cursor: pointer;
+                    text-align: center;
+                    display: inline;
+                }

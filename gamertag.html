@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="http://fonts.cdnfonts.com/css/midnight-workers" rel="stylesheet">
+    <link rel="shortcut icon" href="./img/icon.ico" type="image/x-icon">
+    <title>O'Rona-19</title>
+
+    <script>
+        window.onload = function() {
+            document.getElementById('welcome').innerText = "Hi, " + localStorage.getItem('userName') + "!";
+        };
+
+        function openWin() {
+            window.location.href = 'game.html';
+        }
+    </script>
+</head>
+
+<body>
+
+    <div class="container2">
+
+
+        <img src="./img/logo.png" alt="Rona-19 Logo">
+        <h1 id="welcome"> </h1>
+        <h3>Choose Your Player</h3>
+
+        <div class="buttons">
+            <button id="humanAvatar" class="button" onclick="openWin()"><img src="./img/human_avatar.png" alt="Human Avatar"></button>
+
+            <button id="virusAvatar" class="button" onclick="openWin()"><img src="./img/virus_avatar.png" alt="Virus Avatar"></button>
+
+        </div>
+        <p class="avatarname1">HUMAN</p>
+        <p class="avatarname2">VIRUS</p>
+        <div>
+            <button id="homeBtn" onclick="goBack()"><img src="./img/home_icon.png" alt="Home Icon"></button>
+        </div>
+    </div>
+    <script src="./js/gamertag.js"></script>
+
+</body>
+
+</html>
+
+<!-- onload="init();" -->
